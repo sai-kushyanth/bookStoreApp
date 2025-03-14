@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "The Adventures of Tom Sawyer",
+        "price": 0,
+        "category": "Free",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 2,
+        "name": "Children’s Book",
+        "title": "Alice’s Adventures in Wonderland",
+        "price": 0,
+        "category": "Free",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 3,
+        "name": "Classic Novel",
+        "title": "Moby Dick",
+        "price": 0,
+        "category": "Free",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 4,
+        "name": "Poetry",
+        "title": "Leaves of Grass",
+        "price": 0,
+        "category": "Free",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 5,
+        "name": "Mystery Novel",
+        "title": "The Hound of the Baskervilles",
+        "price": 0,
+        "category": "Free",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 6,
+        "name": "Self-Help",
+        "title": "Meditations by Marcus Aurelius",
+        "price": 0,
+        "category": "Free",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 7,
+        "name": "Science Fiction",
+        "title": "Dune",
+        "price": 15.99,
+        "category": "Fiction",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 8,
+        "name": "Programming",
+        "title": "JavaScript: The Good Parts",
+        "price": 29.99,
+        "category": "Technology",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 9,
+        "name": "Mystery Novel",
+        "title": "Sherlock Holmes: A Study in Scarlet",
+        "price": 9.99,
+        "category": "Mystery",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 10,
+        "name": "Biography",
+        "title": "Steve Jobs by Walter Isaacson",
+        "price": 19.99,
+        "category": "Biography",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 11,
+        "name": "Fantasy",
+        "title": "Harry Potter and the Sorcerer’s Stone",
+        "price": 12.99,
+        "category": "Fantasy",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 12,
+        "name": "Self-Help",
+        "title": "Atomic Habits",
+        "price": 14.99,
+        "category": "Self-Help",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 13,
+        "name": "Historical Fiction",
+        "title": "The Book Thief",
+        "price": 10.99,
+        "category": "Fiction",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 14,
+        "name": "Romance Novel",
+        "title": "Pride and Prejudice",
+        "price": 8.99,
+        "category": "Romance",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 15,
+        "name": "Horror",
+        "title": "It by Stephen King",
+        "price": 16.99,
+        "category": "Horror",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    },
+    {
+        "id": 16,
+        "name": "Business",
+        "title": "The Lean Startup",
+        "price": 13.99,
+        "category": "Business",
+        "image": "https://assets.blurb.com/pages/website-assets/lp-homepage/4_Magazines-ed4798eaed874da23090a336e9377e8cd35e6aa1a9096789f6bde1a6e65c7286.png"
+    }
+]
