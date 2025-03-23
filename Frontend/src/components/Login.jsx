@@ -1,12 +1,47 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useForm } from "react-hook-form";
+import axios from 'axios';
+import toast from 'react-hot-toast';
 
 function Login() {
     const { register, handleSubmit, formState: { errors } } = useForm();
+    //const navigate = useNavigate();
 
-    const onSubmit = (data) => {
-        console.log("Login Data:", data);
+    const onSubmit = async (data) => {
+        const userInfo = {
+            //fullname: data.fullname,
+            email: data.email,
+            password: data.password,
+        };
+
+        console.log("User Info Sent to Backend:", userInfo);
+
+        try {
+            const res = await axios.post("http://localhost:4001/user/login", userInfo);
+            console.log(res.data);
+
+            if (res.status === 200) {
+                //alert("Login successful");
+                toast.success('Login successful');
+                document.getElementById('my_modal_3').close();
+                setTimeout(()=>{
+                    window.location.reload();
+                    localStorage.setItem("Users",JSON.stringify(res.data))
+
+                },3000)
+                
+                
+
+            }
+            //localStorage.setItem("Users",JSON.stringify(res.data))
+        } catch (err) {
+            console.log("Axios Error:", err.response?.data || err.message);
+            //alert("Login error: " + (err.response?.data?.message || err.message));
+            toast.error("Login error: " + (err.response?.data?.message || err.message));
+            
+        }
+        //console.log("Login Data:", data);
         // Handle login logic here (e.g., API request)
     };
 
@@ -17,7 +52,8 @@ function Login() {
                     {/* Form submission properly handled */}
                     <form onSubmit={handleSubmit(onSubmit)}>
                         {/* Close button */}
-                        <button type="button" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2" onClick={() => document.getElementById('my_modal_3').close()}>
+                        <button type="button" className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+                         onClick={() => document.getElementById('my_modal_3').close()}>
                             ✕
                         </button>
 
@@ -31,9 +67,9 @@ function Login() {
                                 type="email"
                                 placeholder="Enter your email"
                                 className="w-80 px-3 py-1 border rounded-md outline-none"
-                                {...register("Email", { required: "Email is required" })}
+                                {...register("email", { required: "Email is required" })}
                             />
-                            {errors.Email && <span className="text-red-500 text-sm">{errors.Email.message}</span>}
+                            {errors.email && <span className="text-red-500 text-sm">{errors.email.message}</span>}
                         </div>
 
                         {/* Password Input */}
